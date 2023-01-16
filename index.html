@@ -1,22 +1,164 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-   
-    <title>Git 연습</title>
-</head>
-<body>
-    <header>
-        <h1> 성동환 </h1> 
-        <h2> 
-            [K-Digital 부산대 22-2회차] AI 활용 빅데이터분석 풀스택웹서비스 SW 개발자 양성과정
-        </h2>   
-    </header>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>자기 소개</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+        <!-- 외부 스타일 적용 -->
+    </head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <body>
         
-    <article>
-        <ul>
-            <ol>himmysky@pusan.ac.kr</ol>
-        </ul>
-    </article>
-</body>
+        <!-- 시멘틱 태그 작성-->
+        <!-- 제목영역-->
+        <header>
+            <!-- 사진영역-->
+            <div id="h_1">
+                <img class ="pic" src="img/SDH.jpg" width="200">
+            </div>
+            <div id="h_2">    
+                <h1>성동환</h1>
+                <p id="h_3">
+                    Sung Dong Hwan
+                </p>
+            </div>
+        </header>
+        <style>
+            table{
+                margin-left: 20px;
+                width: 80%;
+                border: solid 1px rgb(7, 7, 7);
+                border-collapse: collapse;
+                /* 중복되는 표와 셀의 테두리를 한줄로 만든다.*/
+            }
+            td,th{
+                border: solid 1px rgb(124, 124, 124);
+                padding: 10px;
+                font-size: 14px;
+                text-align: center
+                
+            }
+            thead{
+                background-color: rgb(167, 145, 145);
+            }
+        </style>
+        <!-- 메뉴 영역 (네비게이션바)-->
+        <nav> 
+            <a href="#s1">개인정보 </a>&nbsp;&nbsp;|&nbsp;
+            <a href="#s2">학력사항 </a>&nbsp;&nbsp;|&nbsp;
+            <a href="#s3">자격사항 </a>&nbsp;&nbsp;|&nbsp;
+            <a href="#s4">자기소개 </a>&nbsp;&nbsp;&nbsp;|
+            <a href="survey.html">[설문조사]</a>&nbsp;&nbsp;&nbsp;
+        </nav>
+        <!--  개인정보 내용영역-->
+        <section id="s1">
+            <div>
+                <h1 class="c1_1">개인정보</h1>
+                
+                <!-- 세부내용영역 -->
+                <ol>    
+                    <li>
+                        <span class="material-icons">
+                        badge
+                        </span>
+                        이름: 성동환</li>
+                    <li>
+                        <span class="material-icons">
+                        call
+                        </span>
+                        연락처: 010-8385-2011 </li>
+                    <li>
+                        <span class="material-icons">
+                        contact_mail
+                        </span>
+                        이메일: himmysky@pusan.ac.kr</li>
+                    <li>
+                        <span class="material-icons">
+                        home
+                        </span>
+                        주소: 부산광역시 금정구 온천천로</li>
+                </ol>
+            </div>
+        </section>
+        <!-- 학력사항 내용 영역 -->
+        <section id="s2">
+            <div>   
+                <h1 class="c1_2">학력사항</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <br>
+                            <th>학교명</th>
+                            <th>기간</th>
+                            <th>약력</th>
+                            <th>비고사항</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>부산대학교</td>
+                            <td>2011.3~2018.9</td>
+                            <td> 화공생명공학부</td>
+                            <td>졸업</td>
+                        </tr>
+                        <tr>
+                            <td>부흥고등학교</td>
+                            <td>2008.3~2011.2</td>
+                            <td>이공계</td>
+                            <td>졸업</td>
+                        </tr>
+                        <tr>
+                            <td>신곡중학교</td>
+                            <td>2005.3~2008.2</td>
+                            <td>-</td>
+                            <td>졸업</td>
+                        </tr>
+                        <tr>
+                            <td>해송초등학교</td>
+                            <td>1998.3~2005.2</td>
+                            <td>-</td>
+                            <td>졸업</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            
+        </section> 
+        <section id="s3">
+            <!-- 자격사항 내용 영역 -->
+            <div>
+                <h1 class="c1_3">자격사항</h1>
+                <ul>
+                    <li>화공기사 자격증 취득</li>
+                    <li>전사 물류관리 자격증 2급 </li>
+                    <li>전사 생산관리 자격증 2급</li>
+                    <li>정보처리기사 자격증 취득예정?</li>
+    
+                </ul>
+            </div>
+        </section>
+        <section id="s4">
+            <!-- 자기소개 내용 영역 -->
+            <div>
+               
+                <h1 class="c1_4"> 자기소개</h1> 
+                 <p> 
+                    안녕하세요 이번에 함께 하게된 성동환입니다<br>
+                    현재 시간은 오후 3:31분 이구요 코딩교육을 받고있습니다.<br>
+                    C+ 배웠을떄 보단 재밌는거 같아요    <br>               
+                 </p>
+                
+             </div>
+        </section>
+        <!-- 꼬리말 영역 -->
+        <footer>
+            <p>&copy; &nbsp; SDH AI활용 빅데이터분석 풀스택서비스 SW 개발자 양성과정 
+            </p>
+        </footer>
+        
+    </body>
 </html>
